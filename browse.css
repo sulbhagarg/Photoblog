@@ -1,0 +1,43 @@
+	.head1{
+		clear: both;
+		display: block;
+		/*position: absolute;*/
+		float: left;
+		width: auto;
+		margin: auto;
+		margin-left: 37%;
+		margin-right: 37%;
+		border-bottom: 2px solid black;
+		justify-content: center;
+	}
+	.head1 ul
+	{
+		float: left;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+	.head1 a{
+		text-decoration: none;
+		color: black;
+		letter-spacing: 0.20em;
+	}
+	.head1 li
+	{
+		display: inline;
+		float: left;
+		padding: 10px 20px;
+		color: white;
+		text-align: center;
+		font-size: 20px;
+		border-radius: 5px;
+	}
+	.head1 li.active{
+		font-weight: bold;
+		font-style: italic;
+		/*border-bottom: 2px solid grey;*/
+	}
+	.head1 li a:hover{
+		background-color: none;
+		color: darkred;
+	}

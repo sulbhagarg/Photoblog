@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHOTOBLOG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div id="head"><a href="main.html"><img src="Images\closeicon.png"></a></div>
+	<table border=0 cellspacing="10">
+		<form name="signin" onsubmit="return ValidateEmail(email)" action="main.html">
+			<tr>
+				<td colspan="2" style="font-size: 25px; border-bottom: 1px solid grey;">SIGN IN</td>
+			</tr>
+			<tr>
+				<td colspan="2" for="username">USERNAME</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input id="username" type="text" name="username" placeholder="Username" required></td>
+			</tr>
+			<tr>
+				<td colspan="2" for="password">PASSWORD</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input id="password" type="password" name="password" placeholder="******" minlength="6" required></td>
+			</tr>
+			<tr>
+				<td><button type="submit">Sign In</button></td>
+				<td><button onclick="window.location.href='https://mail.google.com'">Sign In With Google</button></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="border-top: 1px solid grey; padding-top: 5px;">Don't have an Account? <a id="signin" href="join.html">Sign Up</a></td>
+			</tr>
+		</form>
+	</table>
+
+	<script type="text/javascript">
+		function ValidateEmail(mail) 
+			{
+ 				if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(join.email.value))
+  				{	
+    				return (true)
+  				}
+    			alert("You have entered an invalid email address!")
+    				return (false)
+			}
+	</script>
+</body>
+</html>

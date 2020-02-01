@@ -1,0 +1,60 @@
+		body{
+			font-family: 'Courier', sans-serif;
+			font-size: 12px;
+			background-color: #81B3DA;
+			color: #3B393C;
+			letter-spacing: 0.1em;
+			font-weight: bold;
+		}
+		#head{
+			float: right;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 100px;
+		}
+		table{
+			clear: both;
+			margin: auto;
+			background-color: white;
+			border-radius: 40px;
+			padding: 30px;
+			margin-top: 300px;
+			width: 500px;
+			border-right: 3px solid black;
+			border-bottom: 3px solid black;
+		}
+		tr{
+			/*padding-bottom: 10px;*/
+		}
+		td{
+			font-size: 20px;
+			/*padding-top: 10px;*/
+		}
+		input[type=text], input[type=password] {
+			width: 100%;
+  			padding: 12px 20px;
+  			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		button{
+		  	width: 100%;
+		  	background-color: white;
+		  	color: black;
+		  	padding: 14px 20px;
+		  	margin: 8px 0;
+		  	border: 1px solid black;
+		  	border-radius: 30px;
+		  	cursor: pointer;
+		}
+		button:hover{
+		  	background-color: lightgrey;
+		  	border: 1px solid lightgrey;
+		  	color: white;
+		}
+		a{
+			text-decoration: none;
+			color: grey;
+		}

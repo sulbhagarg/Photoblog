@@ -1,0 +1,19 @@
+	.content{
+		clear: both;
+		display: block;
+		/*position: absolute;*/
+		float: left;
+		width: auto;
+		min-width: 300px;
+		margin-top: 20px;
+		/*margin: auto;*/
+		margin-left: 300px;
+		margin-right: 300px;
+		color: grey;
+	}
+	.content h1{
+		text-align: center;
+	}
+	.content p{
+		text-align: justify;
+	}

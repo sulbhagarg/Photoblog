@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHOTOBLOG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+		body{
+			background-image: url("Images/Screenshot(113).png");
+		}
+	</style>
+</head>
+<body>
+	<div id="head"><a href="main.html"><img src="Images\closeicon.png"></a></div>
+	<table border=0 cellspacing="10">
+		<form name="join" onsubmit="return ValidateEmail(email)" action="main.html">
+			<tr>
+				<td colspan="2" style="font-size: 25px; border-bottom: 1px solid grey;">JOIN</td>
+			</tr>
+			<tr>
+				<td for="name">NAME</td>
+				<td for="email">EMAIL</td>
+			</tr>
+			<tr>
+				<td><input id="name" type="text" name="name" placeholder="Name" required></td>
+				<td><input id="email" type="text" name="email" placeholder="Email@email.com" required></td>
+			</tr>
+			<tr>
+				<td for="username">USERNAME</td>
+				<td for="password">PASSWORD</td>
+			</tr>
+			<tr>
+				<td><input id="username" type="text" name="username" placeholder="Username" required></td>
+				<td><input id="password" type="password" name="password" placeholder="******" minlength="6" required></td>
+			</tr>
+			<tr>
+				<td><button type="submit">Sign Up</button></td>
+				<td><button onclick="window.location.href='https://mail.google.com'">Sign Up With Google</button></td>
+			</tr>
+			<tr>
+				<td colspan="2" style="border-top: 1px solid grey; padding-top: 5px;">Already a member? <a id="signin" href="signin.html">Sign In</a></td>
+			</tr>
+		</form>
+	</table>
+
+	<script type="text/javascript">
+		function ValidateEmail(mail) 
+			{
+ 				if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(join.email.value))
+  				{	
+    				return (true)
+  				}
+    			alert("You have entered an invalid email address!")
+    				return (false)
+			}
+	</script>
+</body>
+</html>

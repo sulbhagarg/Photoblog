@@ -1,0 +1,77 @@
+.container{
+			clear: both;
+			display: block;
+			padding: 20px;
+			max-width: 960px;
+			height: 100%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		#image1{
+			clear: both;
+			float: left;
+		}
+		#image1 img{
+			display: block;
+			/*min-width: 300px;*/
+			margin: 10px;
+			width: 300px;
+			border-radius: 5px;
+			/*height: 40%;*/
+		}
+		#image1 img:hover{
+			box-shadow: 0px 0px 10px #000;
+			/*outline-offset: 10px;*/
+			/*outline: outset darkred 2px;*/
+		}
+		#image2{
+			/*clear: both;*/
+			float: left;
+		}
+		#image2 img{
+			display: block;
+			/*min-width: 300px;*/
+			margin: 10px;
+			width: 300px;
+			border-radius: 5px;
+			/*height: 40%;*/
+		}
+		#image2 img:hover{
+			box-shadow: 0px 0px 5px #000;
+			/*outline-offset: 10px;*/
+			/*outline: outset darkred 2px;*/
+		}
+		#image3{
+			/*clear: both;*/
+			float: left;
+		}
+		#image3 img{
+			display: block;
+			/*min-width: 300px;*/
+			margin: 10px;
+			width: 300px;
+			border-radius: 5px;
+			/*height: 40%;*/
+		}
+		#image3 img:hover{
+			box-shadow: 0px 0px 5px #000;
+			/*outline-offset: 10px;*/
+			/*outline: outset darkred 2px;*/
+		}
+		.container p{
+			font-family: 'Courier', sans-serif;
+			font-size: 15px;
+			font-weight: bold;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		input[type="button"]{
+			border: 1px solid black;
+			background: white;
+			float: right;
+		}
+		h1{
+			text-align: center;
+			/*margin: 10px;*/
+			letter-spacing: 0.1em;
+		}

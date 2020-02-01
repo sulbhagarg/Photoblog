@@ -1,0 +1,130 @@
+		body{
+			font-family: 'Open Sans', sans-serif;
+			background-color: #ffffff;
+			/*background-color: #2A9893;*/
+			margin: 0;
+			padding: 0;
+		}
+		.nav
+		{
+			/*position: fixed;*/
+			width:100%;
+			float:left;
+			background-color: #2a6592;
+			border-bottom: 2px solid #ffffff;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+		.nav ul
+		{
+			margin: auto;
+			padding: 0;
+		}
+		.nav a{
+			text-decoration: none;
+			color: white;
+			letter-spacing: 0.20em;
+		}
+		.nav li
+		{
+			display: inline;
+			float: left;
+			padding: 10px 20px;
+			color: white;
+			text-align: center;
+			font-size: 16px;
+			border-radius: 5px;
+		}
+		.nav li:hover, .nav li a:hover{
+			color: white;
+			background-color: #2B71A6;
+		}
+		h1{
+			margin: 0;
+		}
+		#head{
+			clear: both;
+			padding: 20px;
+			text-align: center;
+		}
+		#join{
+			clear: both;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			width: 20%;
+			min-width: 300px;
+			background-color: #2a6592;
+			border-radius: 25px;
+			text-align: center;
+		}
+		#join a{
+			text-decoration: none;
+			color: white;			
+			font-size:25px;
+			padding-top: 12.5px;
+			padding-bottom: 12.5px;
+			letter-spacing: 0.20em;
+		}
+		#join:hover{
+			background-color: #81B3DA;
+		}
+		#main1{
+			display: block;
+			padding: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 30px;
+			width: 50%;
+			height: 50%;
+		}
+
+		.foot{
+			clear: both;
+			display: block;
+			padding: 20px;
+			width: 75%;
+			height: 250px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.foot a{
+			text-decoration: none;
+			display: block;
+			color: black;
+			letter-spacing: 0.20em;
+			padding: 12px;
+		}
+		.foot p{
+			text-decoration: none;
+			display: block;
+			color: #1D6864;
+			letter-spacing: 0.20em;
+			padding: 12px;
+		}
+		.foot a:hover{
+			color: darkblue;
+		}
+		#f1{
+			float: right;
+			padding: 10px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+		#f2{
+			float: right;
+			padding: 10px;
+			float: right;
+			margin-left: 10px;
+    		margin-right: 10px;
+		}
+		#f3{
+			padding: 10px;
+			float: right;
+			margin-left: 10px;
+    		margin-right: 10px;
+		}
+
+		.nav li.active, .nav li.active a{
+			background-color: #81B3DA;
+		}
